@@ -1,0 +1,152 @@
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+.intro {
+  max-width: 960px;
+  position: relative;
+  background: #f5f8fd; 
+  margin-top: 50px;
+  padding-left:80px ;
+  /* url("../img/intro-bg.jpg") center top no-repeat; */
+  background-size: cover;
+}
+
+.intro .intro-info h2 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.intro .intro-info h2 span {
+  color: #1bb1dc;
+}
+
+.intro .intro-info .btn-get-started,
+.intro .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+
+.intro .intro-info .btn-get-started:hover,
+.intro .intro-info .btn-services:hover {
+  background: #0a98c0;
+}
+
+
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+
+.section-header h3 {
+  font-size: 36px;
+  color: #413e66;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #535074;
+  width: 50%;
+}
+
+/* Section with background
+--------------------------------*/
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+
+
+
+/* Clients Section
+--------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 992px) {
+  .intro .intro-info {
+    padding-top: 80px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .intro {
+    height: auto;
+    padding: 80px 0 60px 0;
+  }
+
+  .intro .container {
+    height: auto !important;
+  }
+
+  .intro .intro-img {
+    width: 80%;
+  }
+
+  .intro .intro-info {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .intro .intro-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .section-header p {
+    width: 100%;
+  }
+}
