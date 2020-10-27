@@ -11,7 +11,7 @@ const logOut = require('./routes/logOut');
 app.use(express.json());
 app.use(cookieParser());
 
-const dbURI = 'mongodb+srv://Fawad:shaun1234@cluster1.c7amp.mongodb.net/stripe-api-Implementation?retryWrites=true&w=majority';
+const dbURI = '';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
   .then(() => {console.log("connected to MongoDB");})
   .catch((err) => console.log(err));
